@@ -11,6 +11,7 @@ import {
   TextField, Typography
 } from '@mui/material';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import FacebookLogin from './FacebookLogin';
 
 const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
   event.preventDefault();
@@ -73,6 +74,7 @@ const Loginpage = () => {
           >
             Sign In
           </Button>
+          <FacebookLogin/>
           <Grid container>
             <Grid item xs>
               <Link href="#" variant="body2">
